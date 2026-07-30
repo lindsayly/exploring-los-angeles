@@ -1,0 +1,29 @@
+.article-one { grid-area: articleOne; }
+.article-two { grid-area: articleTwo; }
+.article-three { grid-area: articleThree; }
+/*base grid layout for small screen sizes*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        'articleOne'
+        'articleTwo'
+        'articleThree';
+}
+/*medium screens */
+@media (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            'articleOne articleTwo'
+            'articleOne articleThree';
+    }
+}
+/*large screens*/
+@media (min-width: 992px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            'articleOne articleTwo articleThree';
+    }
+}
