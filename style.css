@@ -58,7 +58,6 @@ nav.primary {
     text-decoration: none;
 }
 .navElements a:hover {
-    color: red;
-    border: solid 3px #000000;
+    border: solid 2px #000000;
     border-radius: 5px;
 }
