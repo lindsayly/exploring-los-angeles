@@ -27,3 +27,30 @@
             'articleOne articleTwo articleThree';
     }
 }
+/*default font and size*/
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+/*navbar*/
+nav.primary {
+    width: 100%;
+    background-color: lightblue;
+    font-size: 1.5rem;
+}
+.navElements {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.navElements li {
+    display: block;
+    list-style-type: none;
+}
+.navElements a {
+    color: #000000;
+    text-decoration: none;
+}
+.navElements a:hover {
+    color: red;
+}
