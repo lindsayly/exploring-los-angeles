@@ -57,7 +57,7 @@ footer > p { text-align: center; }
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas:
             'articleOne articleTwo'
-            'articleOne articleThree';
+            'articleThree articleThree';
         gap: 15px;
     }
 }
