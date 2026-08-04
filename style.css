@@ -61,3 +61,7 @@ nav.primary {
     border: solid 2px #000000;
     border-radius: 5px;
 }
+/*h1*/
+h1 {
+    text-align: center;
+}
