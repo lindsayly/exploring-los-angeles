@@ -49,7 +49,11 @@ nav.primary {
 /* h1 */
 h1 {
     text-align: center;
-    
+
+}
+/* table */
+table {
+    border-collapse: collapse;
 }
 footer { text-align: center; }
 footer > p { text-align: center; }
