@@ -58,6 +58,10 @@ table {
 }
 table td {
     text-align: center;
+    border: solid 2px #053225;
+}
+tfoot td {
+    text-align: left;
 }
 footer { text-align: center; }
 footer > p { text-align: center; }
