@@ -76,6 +76,9 @@ h1#attractions-heading {
     background-repeat: no-repeat;
     background-position-y: 30%;
 }
+/* floating images */
+img.img-right { float: right; }
+img.img-left { float: left; }
 /* table */
 table {
     border-collapse: collapse;
