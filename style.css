@@ -51,6 +51,31 @@ h1 {
     font-size: 3rem;
     color: #053225;
 }
+h1#attractions-heading {
+    color: #f0d3f7;
+}
+/* hero images */
+#home-hero {
+    background-image: url(images/index/homeHero.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+}
+#attractions-hero {
+    background-image: url(images/attractions/attractionsHero.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+}
+#local-hero {
+    background-image: url(images/local/localHero.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+}
 /* table */
 table {
     border-collapse: collapse;
@@ -84,13 +109,6 @@ footer > p { text-align: center; }
             'articleOne articleTwo articleThree';
         gap: 15px;
     }
-}
-#home-hero {
-    background-image: url(images/index/homeHero.jpg);
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: 30%;
 }
 /* embedded video */
 .media {
