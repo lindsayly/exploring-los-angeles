@@ -84,4 +84,8 @@ footer > p { text-align: center; }
         gap: 15px;
     }
 }
+#home-hero {
+    background-image: url(images/index/homeHero.jpg);
+    height: 20%;
+}
 /* colors to use: #B4656F, #053225, #F0D3F7 */
